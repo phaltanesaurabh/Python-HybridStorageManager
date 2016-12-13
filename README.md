@@ -18,6 +18,16 @@ Openstack object storage features of cross site replication to achieve hybrid ap
 
 storage management by extending the on premise swift architecture to cloud.
 
+
+This Python Program connect to S3 and Openstack with single cpmmand through CLI
+Program exposes generic API that abstract the interaction with S3 and Openstack Swift
+Project Delivarables:
+(I)nitialing Connection - Intialises connection between S3 and openstack swift
+(C)reate bucket - Create a Bucket in  both S3 and Swift
+(G)et object  - Fetches the object from swift and if not found pulls the object from s3
+(a)rchieval set - Sets the archieval for buckets to s3 on timely basis
+
+
 GOALS
 
 ● Hybrid cloud storage to help deploy data storage both on the public cloud and on
